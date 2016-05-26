@@ -1,3 +1,6 @@
+#Changelog
+(5/26/2016) Instead of deleting the entire post, the script will hide the post by using spoiler tag.
+
 # What is this ?
 This is just a simple userscript for removing specific users' post on Gconhub.com.
 
