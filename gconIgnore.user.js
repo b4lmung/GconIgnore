@@ -19,11 +19,11 @@ if(allPosts.length > 0){
      
         
       var user =  allPosts[i].getElementsByClassName("name")[0].textContent;
-     
-      if(user.contains("member"))
+      
+      if(user.indexOf("member") > -1)
         user = user.substring(0, user.lastIndexOf("member"));
 
-      if(user.contains("staff"))
+      if(user.indexOf("staff") > -1)
         user = user.substring(0, user.lastIndexOf("staff"));
 
       if(blocklist.indexOf(user) > -1){
