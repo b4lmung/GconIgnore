@@ -1,4 +1,5 @@
 #Changelog
+(5/27/2016) Added new feature : The quotes from unwanted users are now hidden behind the spoiler tag. 
 (5/26/2016) Instead of deleting the entire post, the script will hide the post by using spoiler tag.
 
 # What is this ?
