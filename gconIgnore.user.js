@@ -50,8 +50,6 @@ if(allPosts.length > 0){
            if(blocklist.indexOf(n) > -1){ 
                 var quote = quoteTitles[j].parentNode;
                 cnt++;
-                alert(n + "\t" + user);
-             
                 quote.id = "block" + cnt;
                 quote.style.visibility = "hidden";
                 quote.style.display = 'none';
