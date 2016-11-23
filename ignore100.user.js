@@ -25,7 +25,6 @@ if(all.length > 0){
 
         if(user.indexOf("staff") > -1)
           user = user.substring(0, user.lastIndexOf("staff"));
-        alert(post.textContent);
         post.style.visibility = "hidden";
         post.style.display = 'none';
           
