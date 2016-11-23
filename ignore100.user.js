@@ -15,7 +15,7 @@ if(all.length > 0){
       var data= all[i].textContent;
       
       data = data.substring(data.lastIndexOf("(") +1, data.lastIndexOf("post")).trim();
-      if(parseInt(data) < 5000){
+      if(parseInt(data) < 100){
         var post = all[i].parentElement.parentElement;
           
         var user =  post.getElementsByClassName("name")[0].textContent;
