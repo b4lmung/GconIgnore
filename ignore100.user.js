@@ -21,10 +21,10 @@ if(all.length > 0){
         var user =  post.getElementsByClassName("name")[0].textContent;
       
         if(user.indexOf("member") > -1)
-          user = user.substring(0, user.lastIndexOf("member"));
+            user = user.substring(0, user.lastIndexOf("member"));
 
         if(user.indexOf("staff") > -1)
-          user = user.substring(0, user.lastIndexOf("staff"));
+            user = user.substring(0, user.lastIndexOf("staff"));
         post.style.visibility = "hidden";
         post.style.display = 'none';
           
