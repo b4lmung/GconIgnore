@@ -29,10 +29,11 @@ if(all.length > 0){
         post.style.visibility = "hidden";
         post.style.display = 'none';
           
+        post.id = blk + c;
         var button = document.createElement('input');
         button.type = "button";
         button.style = 'width:95%; height:50px; margin: 20px';
-        button.setAttribute("onclick","toggleBox('block" + c + "', 1);");
+        button.setAttribute("onclick","toggleBox('blk" + c + "', 1);");
         button.value = "ข้อความนี้ถูกซ่อนไว้ เนื่องจาก " + user + "  เป็น User ที่โพสไม่ถึง 100 กดที่ปุ่มนี้เพื่อเปิด/ปิดข้อความ";
         post.parentNode.insertBefore(button, post);
         c++;
