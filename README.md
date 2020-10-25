@@ -20,7 +20,7 @@ This is just a simple userscript for removing specific users' post on Gconhub.co
 3. Done !
 จบ 
 
-#How to add/remove users (เพิ่มลบ ignore user ยังไง)
+# How to add/remove users (เพิ่มลบ ignore user ยังไง)
 
 Just edit blocklist array (line 11). 
 แก้บรรดทัดที่ 11 โดยใส่รายชื่อ user ที่ไม่อยากเห็นโพส ยกตัวอย่างเช่น ถ้าไม่อยากเห็นโพสของ  user ที่ชื่อว่า จีคอน ให้แก้เป็น
