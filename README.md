@@ -15,7 +15,7 @@ This is just a simple userscript for removing specific users' post on Gconhub.co
  ลง Tampermonkey Add-on บน Browser ของท่าน
 
 2. Install [Gcon Ignore script](https://github.com/b4lmung/GconIgnore/raw/master/gconIgnore.user.js).
-กดลิงค์ด้านบนและกดเลือก Install สคริปต์
+กดลิงค์และกดเลือก Install สคริปต์
 
 3. Done !
 จบ 
